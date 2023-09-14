@@ -1,0 +1,155 @@
+.wrapper {
+  background-color: #fff;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  min-height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left-section {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 104px;
+  height: 32px;
+}
+
+.nav-wrapper {
+  padding: 32px 0;
+}
+
+.nav-items {
+  display: flex;
+  gap: 11px;
+  list-style: none;
+}
+
+.nav-link {
+  display: flex;
+  padding: 12px 16px;
+  gap: 8px;
+  align-items: center;
+}
+.nav-icon {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-text {
+  color: #7d8a9b;
+  font-family: Be Vietnam Pro;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-active {
+  color: #000;
+  font-weight: 800;
+}
+
+.nav-navigate {
+  height: 16px;
+  width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-right-section {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-account-text {
+  color: #545454;
+  font-family: Be Vietnam Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-button {
+  width: 92px;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+  border-radius: 17.167px;
+  background: #d41a83;
+  color: #f7fafc;
+  font-family: Inter;
+  font-size: 14.714px;
+  font-weight: 500;
+}
+
+.footer-container {
+  background-color: #303030;
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-items {
+  display: flex;
+  gap: 42px;
+}
+
+.item-footer {
+  font-family: Be Vietnam Pro;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.91px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.copyright-text {
+  text-overflow: ellipsis;
+  font-family: Be Vietnam Pro;
+  font-size: 14.808px;
+  font-weight: 500;
+  letter-spacing: 0.963px;
+  color: #fff;
+}
+.copyright-text > span {
+  text-decoration: underline;
+}
