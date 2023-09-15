@@ -35,3 +35,7 @@ body {
 .fullWidth {
   width: 100%;
 }
+
+label {
+  margin: 0 !important;
+}
