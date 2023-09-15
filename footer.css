@@ -4,9 +4,6 @@
   padding: 25px;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 .left-section {
@@ -47,4 +44,8 @@
 }
 .copyright-text > span {
   text-decoration: underline;
+}
+
+.footer-margin {
+  margin-top: 50px;
 }

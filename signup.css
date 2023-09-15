@@ -1,0 +1,151 @@
+.signup-wrapper {
+  max-width: 1352px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  margin: 56px auto 0;
+}
+
+.signup-leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 40%;
+}
+
+.signup-title {
+  color: #0d0e0e;
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.signup-label {
+  color: #718096;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.signup-input {
+  border-radius: 10px;
+  border: 2px solid #d2d2d2;
+  color: #2d3748;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.signup-already-account {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  color: #9d9d9d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+.signup-already-account a {
+  text-decoration: underline;
+  color: #9d9d9d;
+}
+
+.signup-cta a {
+  color: #f7fafc;
+  text-decoration: none;
+}
+.signup-right-wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 51px;
+  border-radius: 36px;
+  background: linear-gradient(
+    90deg,
+    #d41a83 21.21%,
+    rgba(212, 26, 131, 0) 129.77%
+  );
+}
+
+.inner-content-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.inner-header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inner-h2 {
+  color: #fff;
+  font-family: Be Vietnam Pro;
+  font-size: 59.858px;
+  font-weight: 700;
+}
+
+.inner-subtitle {
+  color: #fff;
+  font-family: Be Vietnam Pro;
+  font-size: 28.145px;
+  font-weight: 500;
+}
+
+.inner-cta-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.inner-cta {
+  border: none;
+  display: flex;
+  height: 90px;
+  max-width: 248px;
+  padding: 21px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17.813px;
+  background: #d41a83;
+  box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.16);
+  color: #fff;
+  font-family: Roboto Flex;
+  font-size: 34px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.signup-bg {
+  width: 866px;
+  height: 873px;
+  border-radius: 36px;
+  background-image: url("./assests/signup-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.signup-cta {
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 10px;
+  background: #d41a83;
+  color: #f7fafc;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}

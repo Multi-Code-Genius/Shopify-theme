@@ -1,6 +1,6 @@
 .wrapper {
   background-color: #fff;
-  max-width: 1440px;
+  max-width: 1297px;
   width: 100%;
   margin: 0 auto;
 }
@@ -105,4 +105,9 @@ body {
   font-family: Inter;
   font-size: 14.714px;
   font-weight: 500;
+}
+
+.nav-button a {
+  text-decoration: none;
+  color: #f7fafc;
 }
