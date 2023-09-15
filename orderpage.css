@@ -1,0 +1,295 @@
+.inner-wrapper {
+  max-width: 1211px;
+  width: 100%;
+  gap: 28px;
+  padding: 30px;
+}
+
+.page-titles {
+  gap: 12px;
+}
+.title-head {
+  color: #667085;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.order-id {
+  color: #344054;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  width: 100%;
+  text-align: center;
+}
+.date-detils {
+  color: #1d2939;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  padding-right: 17px;
+  border-right: 1px solid #d0d5dd;
+}
+.delievery-time {
+  color: #12b76a;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.side {
+  display: flex;
+  gap: 6px;
+}
+.truck-img {
+  padding-left: 11px;
+}
+.truck-section {
+  gap: 10px;
+  display: flex;
+}
+.order-date-details {
+  padding-bottom: 28px;
+  border-bottom: 1px solid #d0d5dd;
+}
+.item-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-timing {
+  flex: 1;
+  color: #d0d5dd;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.green {
+  color: #12b76a;
+}
+.round1 {
+  width: 25px;
+  height: 22px;
+  border-radius: 50%;
+  background: #12b76a;
+}
+
+.round {
+  flex: 1;
+}
+.date {
+  flex: 1;
+  color: #667085;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.delievery-chart {
+  gap: 4px;
+}
+.border {
+  height: 5px;
+  background: #d0d5dd;
+  max-width: 952.853px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.price-qty {
+  gap: 5px;
+}
+
+.qty {
+  color: #667085;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.price {
+  color: #2d3748;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.test {
+  color: #344054;
+  font-family: Roboto Flex;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.size {
+  padding-left: 12px;
+  color: var(--natural-500, #667085);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+.color {
+  color: #667085;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 12px;
+  border-right: 1px solid #d0d5dd;
+}
+
+.cards-wrap {
+  gap: 28px;
+  margin-top: 65px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #d0d5dd;
+}
+
+.category-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.payment-section {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #d0d5dd;
+}
+
+.delievery-address {
+  flex: 1;
+}
+
+.payment-card-details {
+  gap: 6px;
+  flex: 1;
+}
+
+.topic {
+  color: #667085;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.address {
+  color: #667085;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-data {
+  gap: 24px;
+}
+
+.lables {
+  gap: 16px;
+}
+
+.amount-card-info {
+  display: flex;
+  gap: 11px;
+}
+
+.final-section {
+  display: flex;
+  gap: 50px;
+}
+.help-section {
+  flex: 1;
+  gap: 12px;
+}
+.summery-order {
+  flex: 1;
+  gap: 12px;
+}
+
+.help-datas {
+  gap: 12px;
+}
+
+.text {
+  color: #667085;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  display: flex;
+  gap: 10px;
+}
+
+.order-data-wrap {
+  width: 100%;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px dotted #d0d5dd;
+}
+
+.data-order {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount {
+  color: #667085;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.euro-price {
+  color: #2d3748;
+  text-align: right;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.total {
+  font-weight: 700;
+}
+.total-money {
+  padding: 16px 0;
+}
