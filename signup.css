@@ -149,3 +149,6 @@
   border: none;
   cursor: pointer;
 }
+.padding-bottom {
+  padding-bottom: 50px;
+}
