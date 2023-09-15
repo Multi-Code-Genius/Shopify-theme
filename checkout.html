@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopify Theme</title>
+    <link rel="stylesheet" href="checkout.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Be Vietnam Pro"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header starts here -->
+      <section class="nav-wrapper">
+        <div class="nav-flex">
+          <div class="nav-left-section">
+            <img src="assests/logo.png" class="logo" />
+            <ul class="nav-items">
+              <li class="nav-link">
+                <img src="assests/Home.png" class="nav-icon" />
+                <div class="nav-text">Home</div>
+              </li>
+              <li class="nav-link">
+                <img src="assests/Shop.png" class="nav-icon" />
+                <div class="nav-text nav-active">Shop</div>
+              </li>
+              <li class="nav-link">
+                <img src="assests/Question.png" class="nav-icon" />
+                <div class="nav-text">FAQ</div>
+              </li>
+              <li class="nav-link">
+                <img src="assests/User.png" class="nav-icon" />
+                <div class="nav-text">Admin panel</div>
+                <img src="assests/Navigate.png" class="nav-navigate" />
+              </li>
+            </ul>
+          </div>
+          <div class="nav-right-section">
+            <div class="nav-wrap flex align-items">
+              <div class="nav-cart flex align-items justify-content">
+                <div class="nav-cart-image">
+                  <div class="nav-notify flex align-items justify-content">
+                    99+
+                  </div>
+                </div>
+              </div>
+              <div class="nav-container flex align-items justify-content">
+                1,245.44 USD
+              </div>
+              <div class="header-border"></div>
+              <div
+                class="nav-container flex align-items justify-content nav-account"
+              >
+                <div class="nav-user flex align-items justify-content">A</div>
+                <img src="/assests/Menu.png" class="nav-menu" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- HEADER ENDS HERE -->
+
+    <div class="wrapper">
+      <div class="inner-wrap direction">
+        <div class="go-back align-items">
+          <img src="./assests/Arrow Left.png" />BACK
+        </div>
+      </div>
+      <div class="checkout-details">
+        <div class="user-info direction">
+          <div class="route-info align-items">
+            <label class="route-name">Cart</label>
+            <div class="border"></div>
+            <img src="./assests/Circle-checkbox.png" />
+            <div class="border"></div>
+            <label class="route-name">Shipping</label>
+            <div class="border"></div>
+            <img src="./assests/Circle-checkbox.png" />
+            <div class="border"></div>
+            <label class="route-name light">Payment</label>
+          </div>
+          <div class="form direction">
+            <div class="topic-title">Shipping details</div>
+            <div class="form-data direction">
+              <label class="field-name">Name</label>
+              <input class="form-input" value="Alexander Peter" />
+              <label>Street</label>
+              <input class="form-input" value="Street 450" />
+              <div class="props">
+                <div class="direction field">
+                  <label class="field-name">Postcode</label>
+                  <input class="form-input" value="12345" />
+                </div>
+                <div class="direction field">
+                  <label class="field-name">Postcode</label>
+                  <input class="form-input" value="City" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-info direction">
+          <div class="topic-title">Order Summary</div>
+          <div class="card-wrap direction">
+            <div class="card-image">
+              <img src="./assests/AddToCartImage.png" />
+              <div class="image-details direction">
+                <div class="top-card-info direction">
+                  <label class="item-name"> Gradient Graphic T-shirt </label>
+                  <label class="size-name">Size: <span>Large</span></label>
+                  <label class="size-name">Color: <span>White</span></label>
+                </div>
+                <label class="money">$100</label>
+              </div>
+            </div>
+            <div class="card-image">
+              <img src="./assests/AddToCartImage.png" />
+              <div class="image-details direction">
+                <div class="top-card-info direction">
+                  <label class="item-name"> Gradient Graphic T-shirt </label>
+                  <label class="size-name">Size: <span>Large</span></label>
+                  <label class="size-name">Color: <span>White</span></label>
+                </div>
+                <label class="money">$100</label>
+              </div>
+            </div>
+            <div class="card-image">
+              <img src="./assests/AddToCartImage.png" />
+              <div class="image-details direction">
+                <div class="top-card-info direction">
+                  <label class="item-name"> Gradient Graphic T-shirt </label>
+                  <label class="size-name">Size: <span>Large</span></label>
+                  <label class="size-name">Color: <span>White</span></label>
+                </div>
+                <label class="money">$100</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info-wrap">
+        <div class="shipping direction">
+          <label class="field-name"> Select shipping </label>
+          <div class="delivery-box">
+            Free delivery
+            <div>
+              <img src="./assests/Dropdownicon.png" />
+            </div>
+          </div>
+        </div>
+        <div class="order-summary direction">
+          <div class="row">
+            <label class="desc">SubTotal</label>
+            <label class="price">$565</label>
+          </div>
+          <div class="row">
+            <label class="desc">Discount (-20%)</label>
+            <label class="price red">-$113</label>
+          </div>
+          <div class="row extra-padding">
+            <label class="desc">Delivery Fee</label>
+            <label class="price">$15</label>
+          </div>
+          <div class="row">
+            <label class="desc">Total</label>
+            <label class="price">$467</label>
+          </div>
+          <div class="promo-code-section">
+            <div class="promo-wrap">
+              <img src="./assests/Promocode.png" />
+              <input class="input-promo" placeholder="Add promo code" />
+            </div>
+            <button class="apply-btn">Apply</button>
+          </div>
+          <button class="next-btn">Next</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-wrapper">
+          <div class="left-section">
+            <div><img src="assests/Footer-logo.png" /></div>
+            <div class="footer-items">
+              <div class="item-footer">Home</div>
+              <div class="item-footer">Shop</div>
+              <div class="item-footer">Faq</div>
+              <div class="item-footer">Shop</div>
+              <div class="item-footer">Admin panel</div>
+            </div>
+          </div>
+          <div class="copyright-text">
+            © 2023 <span>Laravel-Site.net.</span> All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

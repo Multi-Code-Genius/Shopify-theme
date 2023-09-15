@@ -1,0 +1,293 @@
+.inner-wrap {
+  max-width: 1240px;
+  width: 100%;
+  gap: 28px;
+}
+
+.checkout-details {
+  display: flex;
+}
+
+.go-back {
+  gap: 1px;
+  color: #0d0e0e;
+  font-family: Be Vietnam Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.item-name {
+  color: #000;
+  font-family: Roboto Flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.size-name {
+  color: #000;
+  font-family: Roboto Flex;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.size-name span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Roboto Flex;
+  font-size: 12px;
+  font-weight: 400;
+}
+.user-info {
+  padding: 40px;
+  gap: 52px;
+}
+
+.field {
+  gap: 17px;
+}
+
+.money {
+  color: #2d3748;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.form {
+  gap: 46px;
+}
+.payment-label {
+  color: #4a5568;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: end;
+}
+
+.paddingBot {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.image-details {
+  gap: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-card-info {
+  gap: 2px;
+}
+.props {
+  display: flex;
+  gap: 7px;
+}
+
+.field-name {
+  color: #718096;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form-data {
+  gap: 17px;
+}
+
+.form-input {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #d2d2d2;
+  color: #2d3748;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.topic-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.route-info {
+  gap: 16px;
+}
+
+.route-name {
+  color: #d41a83;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.light {
+  color: #828282;
+}
+.shipping {
+  gap: 15px;
+}
+
+.payment-checkout {
+  border-radius: 8.72px;
+  border: 3px solid #d41a83;
+  max-width: 217px;
+  padding: 25px;
+  background: #fff;
+
+  color: #d41a83;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20.928px;
+  font-weight: 500;
+}
+
+.border {
+  background: #3182ce;
+  width: 25px;
+  height: 1px;
+}
+
+.card-wrap {
+  gap: 23px;
+}
+.delivery-box {
+  padding: 20px 28px;
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
+  width: 278px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image {
+  display: flex;
+  gap: 16px;
+}
+
+.code {
+  flex: 1;
+}
+
+.info-wrap {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.order-summary {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 537px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Satoshi;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.price {
+  color: #000;
+  text-align: right;
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.red {
+  color: #f33;
+}
+
+.extra-padding {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.promo-code-section {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.promo-wrap {
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 62px;
+  background: #f0f0f0;
+  width: 294px;
+}
+
+.input-promo {
+  border: none;
+  background: transparent;
+}
+
+.apply-btn {
+  border-radius: 62px;
+  background: #d41a83;
+  border: none;
+  padding: 12px 16px;
+  color: #fff;
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.next-btn {
+  margin-top: 29px;
+  padding: 14px 0;
+  border-radius: 10px;
+  background: #d41a83;
+  color: #f7fafc;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}

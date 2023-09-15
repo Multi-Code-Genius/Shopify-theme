@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="productpage.css" />
     <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
@@ -48,8 +54,25 @@
             </ul>
           </div>
           <div class="nav-right-section">
-            <div class="nav-account-text">Already have an account?</div>
-            <button class="nav-button">Log in</button>
+            <div class="nav-wrap flex align-items">
+              <div class="nav-cart flex align-items justify-content">
+                <div class="nav-cart-image">
+                  <div class="nav-notify flex align-items justify-content">
+                    99+
+                  </div>
+                </div>
+              </div>
+              <div class="nav-container flex align-items justify-content">
+                1,245.44 USD
+              </div>
+              <div class="header-border"></div>
+              <div
+                class="nav-container flex align-items justify-content nav-account"
+              >
+                <div class="nav-user flex align-items justify-content">A</div>
+                <img src="/assests/Menu.png" class="nav-menu" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -57,12 +80,86 @@
     <!-- HEADER ENDS HERE -->
 
     <div class="wrapper">
-      <div class="product-wrap flex">
+      <div class="product-wrap flex direction">
         <div class="product-back flex align-items">
           <img src="/assests/Arrow Left.png" />
           <label class="product-back-text">Back</label>
         </div>
-        <div class="product-list flex"></div>
+        <div class="product-list flex fullWidth justify-content">
+          <div class="product-image"></div>
+          <div class="product-image active"></div>
+          <div class="product-image"></div>
+        </div>
+        <div class="dot-wrap flex fullWidth align-items justify-content">
+          <dot class="dot dot-active"></dot>
+          <dot class="dot"></dot>
+          <dot class="dot"></dot>
+          <dot class="dot"></dot>
+        </div>
+        <div class="product-desc flex align-items fullWidth">
+          <div class="product-info flex direction">
+            <label class="product-sell">Seller</label>
+            <div class="product-company flex align-items">
+              <div class="product-seller flex justify-content align-items">
+                B
+              </div>
+              <div class="wrap flex align-items">
+                <label class="company-name">Bestshop</label>
+                <img src="/assests/Check.png" width="16px" height="16px" />
+              </div>
+            </div>
+          </div>
+          <div class="product-saved">You save 90.00%</div>
+          <div class="dropdown">
+            <button
+              class="btn btn-primary dropdown-toggle product-drop-down"
+              type="button"
+              data-toggle="dropdown"
+            >
+              Choose variants <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu product-menu">
+              <li class="flex dropdown-item align-items">
+                <div class="flex circle color-yellow"></div>
+                Yellow
+              </li>
+              <li class="flex dropdown-item align-items">
+                <div class="flex circle color-red"></div>
+                Red
+              </li>
+              <li class="flex dropdown-item align-items">
+                <div class="flex circle color-green"></div>
+                Green
+              </li>
+              <li class="flex dropdown-item align-items">
+                <div class="flex circle color-brown"></div>
+                Brown
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex product-info">
+          <div class="flex fullWidth product-data align-items">
+            <div class="product">Test</div>
+            <div class="price-wrap flex direction">
+              <div class="price-original">100.00€</div>
+              <div class="price-discount">10.00€</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-desc-wrap flex">
+          <div class="desc-wrap direction">
+            <label class="desc-title">Description</label>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur. Elementum semper interdum
+              nulla mi eu neque. Massa iaculis dolor vel sem. Lobortis sit mi
+              lorem faucibus volutpat augue id euismod mi.
+            </div>
+          </div>
+          <div class="product-buy-cta align-items justify-content">
+            Buy Now (30.00€)
+          </div>
+        </div>
       </div>
     </div>
     <footer>
