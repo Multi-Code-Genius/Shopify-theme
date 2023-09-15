@@ -271,10 +271,3 @@ input:focus {
   font-weight: 400;
   line-height: normal;
 }
-.wrapper-addtocart {
-  background-color: #fff;
-  max-width: 1297px;
-  width: 100%;
-  margin: 0 auto;
-  height: 100vh;
-}
