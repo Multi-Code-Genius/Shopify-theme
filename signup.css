@@ -6,7 +6,9 @@
   gap: 56px;
   margin: 56px auto 0;
 }
-
+.signup-section {
+  height: calc(100vh - 113px);
+}
 .signup-leftSide {
   display: flex;
   flex-direction: column;

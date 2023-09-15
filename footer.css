@@ -5,7 +5,9 @@
   align-items: center;
   justify-content: center;
 }
-
+footer {
+  margin-top: auto;
+}
 .left-section {
   display: flex;
   align-items: center;

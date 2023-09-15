@@ -1,0 +1,16 @@
+.product-wrap {
+  gap: 80px;
+}
+.product-back {
+  gap: 1px;
+}
+.product-back-text {
+  color: #0d0e0e;
+  font-family: Be Vietnam Pro;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.product-list {
+  gap: 23px;
+}
