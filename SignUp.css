@@ -1,0 +1,56 @@
+.signUp-wrapper {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+.signUp-leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 40%;
+}
+
+.signUp-title {
+  color: #0d0e0e;
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.signUp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.signUp-label {
+  color: #718096;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.signUp-input {
+  border-radius: 10px;
+  border: 2px solid #d2d2d2;
+  width: 100%;
+  color: #2d3748;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.signUp-already-account {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  color: #9d9d9d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
