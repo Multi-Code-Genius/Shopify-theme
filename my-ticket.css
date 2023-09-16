@@ -3,12 +3,14 @@
 }
 
 .ticket-header {
-  padding: 10px 17px;
-  background-color: #eee;
-  gap: 19px;
   justify-content: space-between;
 }
-
+.ticket-section {
+  gap: 19px;
+  padding: 10px 17px;
+  background-color: #eee;
+  border-top-left-radius: 22.471px;
+}
 .user-section {
   gap: 15px;
 }
@@ -29,7 +31,7 @@
 .ticket-wrapper {
   border-radius: 22.471px;
   background: #d9d9d9;
-  overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .user-name {
@@ -49,4 +51,75 @@
   font-weight: 500;
   border: none;
   min-width: 122.57px;
+}
+
+.ticket-wrap {
+  gap: 15px;
+  padding: 11px 17px;
+  background-color: #fff;
+}
+
+.ticket-input {
+  border: none;
+  color: #000;
+  font-family: Inter;
+  font-size: 13.997px;
+  font-weight: 400;
+}
+.ticket-input:focus {
+  outline: none;
+}
+
+.ticket-list {
+  background-color: #f8f8f8;
+  padding: 0 10px;
+}
+.ticket-card {
+  padding: 26px 23px 21px 34px;
+  gap: 7px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.no-border {
+  border: none !important;
+}
+.ticket-name {
+  color: #d41a83;
+  font-family: Be Vietnam Pro;
+  font-size: 17.608px;
+  font-weight: 600;
+}
+
+.ticket-detail {
+  justify-content: space-between;
+}
+
+.ticket-createdtime {
+  color: #898989;
+  font-family: Be Vietnam Pro;
+  font-size: 13.76px;
+  font-weight: 500;
+}
+
+.ticket-status {
+  color: #898989;
+  font-family: Be Vietnam Pro;
+  font-size: 15.041px;
+  font-weight: 600;
+}
+
+.ticket-status span {
+  color: #01af12;
+}
+
+.color-black {
+  color: #000 !important;
+}
+
+.color-yellow {
+  color: #f90 !important;
+}
+
+.color-gray {
+  color: #898989 !important;
 }
