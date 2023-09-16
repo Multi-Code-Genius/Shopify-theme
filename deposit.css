@@ -1,0 +1,151 @@
+.menu-items {
+  gap: 45px;
+  border-bottom: 2px solid #e8e8e8;
+  width: fit-content;
+}
+.page-view {
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+.menu-link {
+  color: #828282;
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.active {
+  color: #000;
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  font-weight: 800;
+  border-bottom: 6px solid #d41a83;
+}
+.upper-section {
+  gap: 40px;
+}
+
+.topic {
+  color: #000;
+  font-family: Be Vietnam Pro;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 40px 0 0 0;
+}
+.main-section {
+  min-width: 760px;
+  max-width: 760px;
+  margin: 0 auto;
+  gap: 83px;
+}
+.route-info {
+  gap: 16px;
+}
+.border {
+  background: #3182ce;
+  width: 25px;
+  height: 1px;
+}
+.route-name {
+  color: #d41a83;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.light {
+  color: #828282;
+}
+.topup-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.input-number {
+  border-radius: 10px;
+  border: 2px solid #d2d2d2;
+  padding: 20px;
+  width: 559px;
+}
+
+.input-wrap {
+  gap: 21px;
+}
+
+.amount-info {
+  gap: 18px;
+}
+.cash-in {
+  border-radius: 10px;
+  background: #d41a83;
+  padding: 13px 19px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 21.471px;
+  font-weight: 500;
+  border: none;
+}
+
+.inputgap {
+  gap: 20px;
+}
+
+.bitcoin-btn {
+  width: 200px;
+  position: relative;
+  padding: 19px 0;
+  max-height: 112px;
+  border-radius: 10px;
+  border: 3px solid #d41a83;
+  background: #fff;
+}
+#radio {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  accent-color: #d41a83;
+}
+
+.field-gap {
+  gap: 22px;
+}
+
+.margin {
+  margin-top: 38px !important;
+}
+.promo-wrap {
+  padding: 12px 16px;
+  gap: 12px;
+  border-radius: 10px;
+  border: 2px solid #d2d2d2;
+  width: 559px;
+}
+
+.input-promo {
+  border: none;
+  background: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cash-in {
+  width: 170px;
+}

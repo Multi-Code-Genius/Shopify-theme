@@ -1,0 +1,53 @@
+.banner {
+  background: url("./assests/banner.png") no-repeat center;
+  border-radius: 18px;
+  padding: 48px 58px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.banner::after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    #d41a83 21.21%,
+    rgba(212, 26, 131, 0) 72.7%
+  );
+}
+
+.banner-title {
+  color: #fff;
+  font-family: Be Vietnam Pro;
+  font-size: 42.545px;
+  font-weight: 700;
+  position: relative;
+  z-index: 10;
+}
+
+.banner-subtitle {
+  color: #fff;
+  font-family: Be Vietnam Pro;
+  font-size: 20.004px;
+  font-weight: 500;
+  position: relative;
+  z-index: 10;
+}
+
+.buy-now {
+  padding: 15.429px 20.571px;
+  gap: 15px;
+  border-radius: 12.857px;
+  background: #d41a83;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto Flex;
+  font-size: 24.632px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}

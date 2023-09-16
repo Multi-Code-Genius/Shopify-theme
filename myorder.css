@@ -1,0 +1,125 @@
+.topic {
+  color: #000;
+  font-family: Be Vietnam Pro;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 40px 0 0 0;
+}
+
+.gap {
+  gap: 61px;
+}
+
+.page-view {
+  gap: 40px;
+}
+
+.titles {
+  justify-content: space-between;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.product {
+  color: #828282;
+  font-family: Be Vietnam Pro;
+  font-size: 23.22px;
+  font-weight: 600;
+}
+
+.menu-items {
+  gap: 45px;
+  border-bottom: 2px solid #e8e8e8;
+  width: fit-content;
+}
+
+.menu-link {
+  color: #828282;
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  font-weight: 600;
+}
+.cart {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 27px 0;
+}
+
+.active {
+  color: #000;
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  font-weight: 800;
+  border-bottom: 6px solid #d41a83;
+}
+.order-details {
+  min-width: 700px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.order-id {
+  color: #000;
+  text-overflow: ellipsis;
+  font-family: Be Vietnam Pro;
+  font-size: 18.513px;
+  font-weight: 600;
+}
+
+.order-data {
+  gap: 7px;
+}
+
+.order-id span {
+  color: #d41a83;
+}
+
+.light-font {
+  color: #828282;
+  font-family: Be Vietnam Pro;
+  font-size: 15.458px;
+  font-weight: 600;
+}
+
+.color-details {
+  color: #d41a83;
+  text-overflow: ellipsis;
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.price-section {
+  color: #000;
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.image-section {
+  gap: 19px;
+  flex: 1;
+}
+.details-section {
+  gap: 6px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.pagination-wrap {
+  margin: 50px 0;
+  gap: 25px;
+}
+.page {
+  color: #000;
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-size: 18.076px;
+  font-weight: 600;
+}
+
+.active-page {
+  background: #fbe8f3;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
