@@ -1,0 +1,52 @@
+.ticket-layout {
+  width: 36%;
+}
+
+.ticket-header {
+  padding: 10px 17px;
+  background-color: #eee;
+  gap: 19px;
+  justify-content: space-between;
+}
+
+.user-section {
+  gap: 15px;
+}
+
+.user-logo {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: #d41a83;
+  text-align: center;
+  color: #fff;
+  font-family: Be Vietnam Pro;
+  font-size: 23.147px;
+  font-weight: 600;
+  line-height: 30.863px;
+}
+
+.ticket-wrapper {
+  border-radius: 22.471px;
+  background: #d9d9d9;
+  overflow: hidden;
+}
+
+.user-name {
+  color: #000;
+  font-family: Be Vietnam Pro;
+  font-size: 17.608px;
+  font-weight: 600;
+}
+
+.new-chat-cta {
+  border-radius: 7.765px;
+  background: #d41a83;
+  padding: 11px 0;
+  color: #f7fafc;
+  font-family: Inter;
+  font-size: 18.635px;
+  font-weight: 500;
+  border: none;
+  min-width: 122.57px;
+}

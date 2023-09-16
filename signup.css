@@ -154,3 +154,55 @@
 .padding-bottom {
   padding-bottom: 50px;
 }
+
+@media (max-width: 1200px) {
+  .signup-wrapper {
+    width: 90%;
+  }
+  .signup-section {
+    height: auto;
+  }
+}
+
+@media (max-width: 990px) {
+  .signup-leftSide {
+    width: 90%;
+  }
+
+  .signup-wrapper {
+    flex-direction: column-reverse;
+  }
+  .signup-bg {
+    height: auto;
+    width: 90%;
+  }
+  .signup-right-wrapper {
+    padding-left: 0;
+    padding: 24px;
+  }
+  .inner-h2 {
+    font-size: 30.586px;
+    font-weight: 700;
+  }
+  .inner-subtitle {
+    font-size: 14.381px;
+    font-weight: 500;
+  }
+  .inner-content-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+    gap: 0;
+  }
+  .inner-cta-wrap {
+    width: auto;
+    display: block;
+  }
+  .inner-cta {
+    font-size: 17.87px;
+    font-weight: 500;
+    padding: 11px 14px;
+    height: auto;
+  }
+}

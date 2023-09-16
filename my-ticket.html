@@ -7,8 +7,15 @@
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="top-seller.css" />
-    <link rel="stylesheet" href="banner.css" />
+    <link rel="stylesheet" href="myorder.css" />
+    <link rel="stylesheet" href="my-ticket.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
@@ -47,7 +54,6 @@
               </li>
             </ul>
           </div>
-
           <div class="nav-right-section">
             <div class="nav-wrap flex align-items">
               <div class="nav-cart flex align-items justify-content">
@@ -72,58 +78,32 @@
         </div>
       </section>
     </div>
-
     <!-- HEADER ENDS HERE -->
 
-    <div class="wrapper">
-      <div class="banner flex align-items">
-        <div>
-          <div class="banner-title">Save up to 90% on Fall Sale</div>
-          <div class="banner-subtitle">
-            Placeholder text rerit a velit a hendrerit.
-          </div>
-        </div>
-        <div>
-          <button class="buy-now justify-content align-items">Buy Now</button>
+    <div class="wrapper gap direction">
+      <div class="page-view direction">
+        <div class="topic fullWidth">Settings</div>
+        <div class="menu-items flex">
+          <label class="menu-link">My orders</label>
+          <label class="menu-link active">Tickets</label>
+          <label class="menu-link">Deposit</label>
+          <label class="menu-link">Settings</label>
         </div>
       </div>
-      <div class="category-container direction">
-        <div class="header direction">
-          <div class="category flex align-items">
-            <label class="category-label">Shop</label>
-            <img src="./assests/Arrow.png" width="16px" height="16px" />
-            <label class="category-label-active">Categories</label>
-          </div>
-          <h3 class="title">Categories</h3>
-        </div>
-        <div class="item-list align-items justify-content fullWidth">
-          <div class="category-image direction align-items justify-content">
-            <label class="category-title">Category 1.1 </label>
-            <p class="category-description">Short Description</p>
-          </div>
-          <div class="category-image direction align-items justify-content">
-            <label class="category-title">Category 1.2 </label>
-            <p class="category-description">Short Description</p>
-          </div>
-          <div class="category-image direction align-items justify-content">
-            <label class="category-title">Category 2.1 </label>
-            <p class="category-description">Short Description</p>
-          </div>
-          <div class="category-image direction align-items justify-content">
-            <label class="category-title">Category 3.0 </label>
-            <p class="category-description">Short Description</p>
-          </div>
-          <div class="category-image direction align-items justify-content">
-            <label class="category-title">Category 4.0 </label>
-            <p class="category-description">Short Description</p>
-          </div>
-          <div class="category-image direction align-items justify-content">
-            <label class="category-title">Category 4.1 </label>
-            <p class="category-description">Short Description</p>
+      <div class="flex fullWidth ticket-wrapper">
+        <div class="flex ticket-layout direction">
+          <div class="ticket-header flex">
+            <div class="user-section flex align-items">
+              <div class="user-logo align-items justify-content">A</div>
+              <label class="user-name">Username</label>
+            </div>
+            <button class="new-chat-cta">New chat</button>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Footer Start Here -->
     <footer>
       <div class="footer-container">
         <div class="footer-wrapper">
