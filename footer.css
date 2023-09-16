@@ -51,3 +51,20 @@ footer {
 .footer-margin {
   margin-top: 50px;
 }
+
+@media (max-width: 990px) {
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 87px;
+  }
+  .left-section {
+    flex-direction: column;
+  }
+  .footer-items {
+    flex-direction: column;
+    text-align: center;
+  }
+  .copyright-text {
+    text-align: center;
+  }
+}
